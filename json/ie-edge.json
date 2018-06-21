@@ -1,0 +1,18 @@
+{
+  "title": "IE/Edge",
+  "stats": {
+    "11": [
+      "_:-ms-fullscreen, :root .selector { property: value; }",
+      "_:-ms-backdrop, :root .selector { property: value; }",
+      "_:-ms-lang(_):-ms-fullscreen, .selector { property: value; }",
+      "_:-ms-lang(_):-ms-backdrop, .selector { property: value; }",
+      "_:not(_):-ms-fullscreen, .selector { property: value; }",
+      "_:not(_):-ms-backdrop, .selector { property: value; }"
+    ],
+    "7,11": [
+      "_:-ms-fullscreen, .selector { property: value; }",
+      "_:-ms-backdrop, .selector { property: value; }"
+    ],
+    "10+": "_:-ms-lang(_), .selector { property: value; }"
+  }
+}

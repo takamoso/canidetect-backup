@@ -17,6 +17,11 @@
       "_:-ms-fullscreen, .selector { property: value; }",
       "_:-ms-backdrop, .selector { property: value; }"
     ],
+    "6-": [
+      "*html .selector { property: value; }",
+      ".selector { -property: value; }",
+      ".selector { _property: value; }"
+    ],
     "10+": "_:-ms-lang(_), .selector { property: value; }"
   }
 }

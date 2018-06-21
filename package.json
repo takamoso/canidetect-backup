@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "npx babel-node tasks/test"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://takamoso@github.com/takamoso/canidetect.git"
@@ -20,8 +18,7 @@
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.51",
     "@babel/node": "^7.0.0-beta.51",
-    "@babel/preset-env": "^7.0.0-beta.51",
-    "canvas": "^1.6.11",
-    "puppeteer": "^1.5.0"
-  }
+    "@babel/preset-env": "^7.0.0-beta.51"
+  },
+  "dependencies": {}
 }

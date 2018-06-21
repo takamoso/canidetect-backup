@@ -1,6 +1,10 @@
 {
   "title": "IE/Edge",
   "stats": {
+    "6": [
+      ".selector { -property: value\\9; }",
+      ".selector { _property: value\\9; }"
+    ],
     "11": [
       "_:-ms-fullscreen, :root .selector { property: value; }",
       "_:-ms-backdrop, :root .selector { property: value; }",

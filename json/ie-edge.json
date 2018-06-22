@@ -3,7 +3,8 @@
   "stats": {
     "6": [
       ".selector { -property: value\\9; }",
-      ".selector { _property: value\\9; }"
+      ".selector { _property: value\\9; }",
+      "*html .selector { property: value; }"
     ],
     "7": [
       "*:first-child+html .selector { property: value; }",

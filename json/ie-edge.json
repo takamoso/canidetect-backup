@@ -5,6 +5,13 @@
       ".selector { -property: value\\9; }",
       ".selector { _property: value\\9; }"
     ],
+    "7": [
+      "*:first-child+html .selector { property: value; }",
+      "*+html .selector { property: value; }",
+      "_>_, .selector { *property: value; }",
+      "_:first, .selector { property: value; }",
+      "_:_, .selector { property: value; }"
+    ],
     "11": [
       "_:-ms-fullscreen, :root .selector { property: value; }",
       "_:-ms-backdrop, :root .selector { property: value; }",

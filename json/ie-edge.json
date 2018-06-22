@@ -35,6 +35,15 @@
       ".selector { -property: value; }",
       ".selector { _property: value; }"
     ],
+    "7-": [
+      "@media screen\\9 { .selector { property: value; } }",
+      "@media all\\9 { .selector { property: value; } }",
+      ".selector\\0 { property: value; }",
+      ".selector { !property: value; }",
+      ".selector { property: value!; }",
+      ".selector, { property: value; }",
+      ".selector\\ { property: value; }"
+    ],
     "10+": "_:-ms-lang(_), .selector { property: value; }"
   }
 }

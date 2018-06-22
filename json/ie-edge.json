@@ -13,6 +13,11 @@
       "_:first, .selector { property: value; }",
       "_:_, .selector { property: value; }"
     ],
+    "8": [
+      "@media \\0screen { .selector { property: value; } }",
+      "@media \\0 { .selector { property: value; } }",
+      ".selector { property: value\\0/; }"
+    ],
     "11": [
       "_:-ms-fullscreen, :root .selector { property: value; }",
       "_:-ms-backdrop, :root .selector { property: value; }",

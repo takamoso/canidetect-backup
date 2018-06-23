@@ -32,6 +32,10 @@
       "_:-ms-fullscreen, .selector { property: value; }",
       "_:-ms-backdrop, .selector { property: value; }"
     ],
+    "10~11": [
+      "_:valid\\0, .selector { property: value; } }",
+      "_:-ms-input-placeholder, :root .selector { property: value; }"
+    ],
     "6-": [
       "*html .selector { property: value; }",
       ".selector { -property: value; }",

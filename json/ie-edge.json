@@ -27,6 +27,7 @@
       "_:not(_):-ms-fullscreen, .selector { property: value; }",
       "_:not(_):-ms-backdrop, .selector { property: value; }"
     ],
+    "7,10~11": "_:-ms-input-placeholder, .selector { property: value; }",
     "7,11": [
       "_:-ms-fullscreen, .selector { property: value; }",
       "_:-ms-backdrop, .selector { property: value; }"

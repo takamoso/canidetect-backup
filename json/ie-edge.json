@@ -18,6 +18,7 @@
       "@media \\0 { .selector { property: value; } }",
       ".selector { property: value\\0/; }"
     ],
+    "10": "_:-ms-lang(_), .selector { property: value\\9; }",
     "11": [
       "_:-ms-fullscreen, :root .selector { property: value; }",
       "_:-ms-backdrop, :root .selector { property: value; }",

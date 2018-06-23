@@ -44,6 +44,7 @@
       ".selector, { property: value; }",
       ".selector\\ { property: value; }"
     ],
+    "10-": ".selector { property: value\\9; }",
     "10+": "_:-ms-lang(_), .selector { property: value; }"
   }
 }

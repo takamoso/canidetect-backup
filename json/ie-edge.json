@@ -50,6 +50,10 @@
       ".selector, { property: value; }",
       ".selector\\ { property: value; }"
     ],
+    "8-": [
+      "@media \\0screen\\,screen\\9 { .selector { property: value; } }",
+      "@media \\0\\,all\\9 { .selector { property: value; } }"
+    ],
     "10-": ".selector { property: value\\9; }",
     "10+": "_:-ms-lang(_), .selector { property: value; }"
   }

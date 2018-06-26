@@ -37,6 +37,9 @@
       "@media all\\0 { .selector { property: value; } }",
       ".selector { property: value\\0; }"
     ],
+    "9~11": [
+      "@media (min-width: 0\\0) { .selector { property: value; } }",
+      ":root, .selector { property: value\\0; }"
     ],
     "10~11": [
       "_:valid\\0, .selector { property: value; } }",

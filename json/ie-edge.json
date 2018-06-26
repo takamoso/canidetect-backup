@@ -34,7 +34,9 @@
     ],
     "8~11": [
       "@media screen\\0 { .selector { property: value; } }",
-      "@media all\\0 { .selector { property: value; } }"
+      "@media all\\0 { .selector { property: value; } }",
+      ".selector { property: value\\0; }"
+    ],
     ],
     "10~11": [
       "_:valid\\0, .selector { property: value; } }",
